@@ -4,26 +4,26 @@ Installation of OpenCV on Linux Mint from instructions for installing on Unbuntu
 # Install OpenCV 4 with Python 3 on Ubuntu 18.04, Linux Mint 19.
 
 ## Commands:
->> mkdir ~/opencv_install
->> cd opencv_install
 
->> sudo apt-get update 
->> sudo apt-get dist-upgrade
->> sudo apt purge libx264-dev x264
->> sudo apt-get install build-essential cmake pkg-config libjpeg8-dev libtiff5-dev libpng12-0 wget aria2c -y
->> sudo apt install v4l-utils libv4l-dev libgphoto2-dev libgstreamer1.0-0 libgstreamer1.0-dev x264 -y
+``` mkdir ~/opencv_install
+cd opencv_install
 
->> cd /usr/include/linux/
->> sudo ln -s -f ../libv4l1-videodev.h videodev.h
->>cd ~/opencv_install
+sudo apt-get update 
+sudo apt-get dist-upgrade
+sudo apt purge libx264-dev x264
+sudo apt-get install build-essential cmake pkg-config libjpeg8-dev libtiff5-dev libpng12-0 wget aria2c -y
+sudo apt install v4l-utils libv4l-dev libgphoto2-dev libgstreamer1.0-0 libgstreamer1.0-dev x264 -y
 
->> sudo apt install libavcodec-dev libavformat-dev libswscale-dev libxvidcore-dev 
->>sudo apt install libgtk-3-dev libatlas-base-dev gfortran python3.6-dev python2.7-dev libtiff-dev
+cd /usr/include/linux/
+sudo ln -s -f ../libv4l1-videodev.h videodev.h
+cd ~/opencv_install
 
+sudo apt install libavcodec-dev libavformat-dev libswscale-dev libxvidcore-dev 
+sudo apt install libgtk-3-dev libatlas-base-dev gfortran python3.6-dev python2.7-dev libtiff-dev
 
 # Install pip
 
-``` aria2c "https://bootstrap.pypa.io/get-pip.py"
+aria2c "https://bootstrap.pypa.io/get-pip.py"
 sudo python3 get-pip.py
 
 sudo pip install numpy
@@ -51,4 +51,5 @@ sudo ldconfig
 
 python3.6
 import cv2
-cv2.__version__'''
+cv2.__version__
+'''
