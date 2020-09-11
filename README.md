@@ -51,4 +51,5 @@ sudo ldconfig
 
 python3.6
 import cv2
-cv2.__version__'''
+cv2.__version__
+```
