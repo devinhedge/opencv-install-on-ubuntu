@@ -66,7 +66,7 @@ Alternatively you can clone this repository or copy down the Python script 'test
 
 ```
 python3 test_opencv.py
-'''
+```
 
 You are now ready to use OpenCV.
 
