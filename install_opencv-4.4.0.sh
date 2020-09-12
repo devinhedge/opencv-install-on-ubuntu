@@ -49,7 +49,3 @@ make -j4
 make
 make install
 ldconfig
-
-python3.6
-import cv2
-cv2.__version__
