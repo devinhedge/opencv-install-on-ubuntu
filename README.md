@@ -1,7 +1,6 @@
-# opencv-install-on-ubuntu
-Installation of OpenCV on Linux Mint from instructions for installing on Unbuntu.
-
 # Install OpenCV 4 with Python 3 on Ubuntu 18.04, Linux Mint 19.
+
+This repository is just a cut a paste of the instructions for installing OpenCV on Linux Mint (flavor of Unbuntu) from a realy straight forward [YouTube video](https://youtu.be/FDjsLK9M6Sc). If you find a bug, let me know and I'll address it.
 
 ## Commands:
 
