@@ -61,6 +61,13 @@ This should return the following:
 ```
 '4.4.0'
 ```
+
+Alternatively you can clone this repository or copy down the Python script 'test_opencv.py' and just execute the folowing:
+
+```
+python3 test_opencv.py
+'''
+
 You are now ready to use OpenCV.
 
 Enjoy!
