@@ -29,16 +29,16 @@ sudo python3 get-pip.py
 sudo pip install numpy
 sudo pip3 install numpy
 
-aria2c "https://github.com/opencv/opencv/arch..."
-aria2c "https://github.com/opencv/opencv_cont..."
+aria2c "https://github.com/opencv/opencv/archive/4.4.0.zip"
+aria2c "https://github.com/opencv/opencv_contrib/archive/opencv_contrib-4.4.0.tar.gz"
 
 tar xvf opencv_contrib-4.4.0.tar.gz
  
 mkdir opencv
 cd opencv/
-cp ../opencv-4.4.0.zip .
-unzip opencv-4.4.0.zip
-cd opencv-4.0.1/
+cp ../4.4.0.zip .
+unzip 4.4.0.zip
+cd opencv-4.4.0/
 mkdir build
 cd build
 
@@ -48,8 +48,20 @@ make -j4
 make
 sudo make install
 sudo ldconfig
-
-python3.6
-import cv2
-cv2.__version__
 ```
+# Testing the build
+
+Now you can test the build from the Python Live interpreter shell.
+
+```
+python3.6
+>>> import cv2
+>>> cv2.__version__
+```
+This should return the following:
+```
+'4.4.0'
+```
+You are now ready to use OpenCV.
+
+Enjoy!
