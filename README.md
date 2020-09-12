@@ -70,4 +70,6 @@ python3 test_opencv.py
 
 You are now ready to use OpenCV.
 
+Check out the wonderful tutorial "[OpenCV Python Tutorial For Beginners](https://www.youtube.com/playlist?list=PLS1QulWo1RIa7D1O6skqDQ-JZ1GGHKK-K)" to get started with some nice exercises.
+
 Enjoy!
